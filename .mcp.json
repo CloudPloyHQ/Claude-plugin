@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cloudploy": {
+      "type": "http",
+      "url": "https://app.cloudploy.com/mcp"
+    }
+  }
+}

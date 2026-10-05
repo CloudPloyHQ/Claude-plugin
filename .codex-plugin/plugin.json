@@ -1,0 +1,39 @@
+{
+  "name": "cloudploy",
+  "version": "1.0.0",
+  "description": "Deploy an app onto a server in your own cloud account.",
+  "author": {
+    "name": "CloudPloy",
+    "email": "support@cloudploy.com",
+    "url": "https://cloudploy.com"
+  },
+  "homepage": "https://cloudploy.com/mcp",
+  "repository": "https://github.com/CloudPloyHQ/cloudploy-agent",
+  "license": "MIT",
+  "keywords": ["deploy", "aws", "servers", "git"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "CloudPloy",
+    "shortDescription": "Deploy an app onto your own server",
+    "longDescription": "Connect a cloud account, attach a git repository, and deploy an app onto a server you own. CloudPloy uses the team you sign in to. Destructive deletes stay behind an explicit confirmation.",
+    "developerName": "CloudPloy",
+    "category": "Developer tools",
+    "capabilities": ["List servers and apps", "Connect a git account", "Deploy an app"],
+    "websiteURL": "https://cloudploy.com",
+    "supportURL": "https://cloudploy.com/contact",
+    "privacyPolicyURL": "https://cloudploy.com/privacy",
+    "termsOfServiceURL": "https://cloudploy.com/terms",
+    "defaultPrompt": [
+      "List the servers on my CloudPloy team.",
+      "Connect my GitHub account.",
+      "Deploy my app."
+    ],
+    "brandColor": "#C8F542",
+    "brandColorDark": "#0B0F14",
+    "composerIcon": "./assets/icon.png",
+    "composerIconDark": "./assets/icon-dark.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  }
+}
