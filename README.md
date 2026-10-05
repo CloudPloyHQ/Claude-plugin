@@ -1,6 +1,6 @@
 # CloudPloy
 
-Deploy an app onto a server in your own cloud account from Claude or ChatGPT. The agent talks to `https://app.cloudploy.com/mcp`. This repo is the install package. It doesn't run a second server.
+Connect AWS, Google Cloud, a VPS, or another cloud account, and put Cloudflare in front of it, from Claude or ChatGPT. The agent talks to `https://app.cloudploy.com/mcp`. This repo is the install package. It doesn't run a second server.
 
 ## Install from a directory
 

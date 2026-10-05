@@ -1,8 +1,8 @@
 {
   "name": "cloudploy",
   "displayName": "CloudPloy",
-  "version": "1.0.0",
-  "description": "Deploy an app onto a server in your own cloud account.",
+  "version": "1.1.0",
+  "description": "Connect AWS, Google Cloud, a VPS, or another cloud account, and put Cloudflare in front of it.",
   "author": {
     "name": "CloudPloy",
     "email": "support@cloudploy.com",
@@ -16,5 +16,5 @@
   "termsOfServiceUrl": "https://cloudploy.com/terms",
   "repository": "https://github.com/CloudPloyHQ/cloudploy-agent",
   "license": "MIT",
-  "keywords": ["deploy", "aws", "servers", "git"]
+  "keywords": ["aws", "google-cloud", "vps", "cloudflare", "deploy"]
 }

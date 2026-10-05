@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "cloudploy",
-  "version": "1.0.0",
-  "description": "Deploy an app onto a server in your own cloud account.",
+  "version": "1.1.0",
+  "description": "Connect AWS, Google Cloud, a VPS, or another cloud account, and put Cloudflare in front of it.",
   "author": {
     "name": "CloudPloy",
     "email": "support@cloudploy.com",
@@ -11,16 +11,16 @@
   "homepage": "https://cloudploy.com/mcp",
   "repository": "https://github.com/CloudPloyHQ/cloudploy-agent",
   "license": "MIT",
-  "keywords": ["deploy", "aws", "servers", "git"],
+  "keywords": ["aws", "google-cloud", "vps", "cloudflare", "deploy"],
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "CloudPloy",
-        "shortDescription": "Deploy an app onto your own server",
-        "longDescription": "Connect a cloud account, attach a git repository, and deploy an app onto a server you own. CloudPloy uses the team you sign in to. Destructive deletes stay behind an explicit confirmation.",
+        "shortDescription": "Connect AWS, GCP, and a VPS",
+        "longDescription": "Connect AWS, Google Cloud, a VPS, or another cloud account, and put Cloudflare in front of it. Sign in to the CloudPloy team you already use. Deletes stay behind an explicit confirmation.",
         "developerName": "CloudPloy",
         "category": "Developer tools",
-        "capabilities": ["List servers and apps", "Connect a git account", "Deploy an app"],
+        "capabilities": ["Connect AWS, Google Cloud, or a VPS", "Put Cloudflare in front", "Deploy an app"],
         "websiteURL": "https://cloudploy.com",
         "supportURL": "https://cloudploy.com/contact",
         "privacyPolicyURL": "https://cloudploy.com/privacy",
@@ -96,7 +96,7 @@
         "commerce_description": "This plugin does not sell products or start a subscription. People sign in to an account they already have."
       },
       "publication": {
-        "release_notes": "First directory release. Deploy, git connect, and server inspect tools. No checkout inside chat."
+        "release_notes": "Listing now says CloudPloy connects AWS, Google Cloud, a VPS, or another cloud account, and puts Cloudflare in front of it."
       }
     }
   }
