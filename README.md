@@ -16,7 +16,7 @@ Until those listings are live, connect the server directly:
 claude mcp add --transport http cloudploy https://app.cloudploy.com/mcp
 ```
 
-The client opens a browser so you can sign in. Don't put a bearer token in the plugin config.
+The client opens a browser so you can sign in.
 
 ## What's in this repo
 
@@ -37,18 +37,13 @@ zip -r dist/cloudploy-agent.zip \
 
 Upload that zip in the OpenAI plugin dashboard. Reviewer login stays in the dashboard, not in the zip.
 
-Before you submit, replace nothing in the zip with a secret. Record a short demo of the five positive cases and paste that URL into the review form. The test account needs a team that can already deploy, with one server and one app, and sign-in that doesn't use MFA, email codes, or SMS.
+Before you submit, leave reviewer login in the OpenAI dashboard. Record a short demo of the five positive cases and paste that URL into the review form. The test account needs a team that can already deploy, with one server and one app, and sign-in that doesn't use MFA, email codes, or SMS.
 
 Allowed link origins you own: `https://app.cloudploy.com` and `https://cloudploy.com`.
 
-## Publish the registry entry
+## Registry
 
-The public proof file is `https://cloudploy.com/.well-known/mcp-registry-auth`. The private key stays in the CloudPloy secrets folder. After that URL is live:
-
-```bash
-mcp-publisher login http --domain cloudploy.com --private-key "$MCP_REGISTRY_PRIVATE_KEY"
-mcp-publisher publish server.json
-```
+`com.cloudploy/cloudploy` is published. The public proof file is `https://cloudploy.com/.well-known/mcp-registry-auth`.
 
 ## Hand-in for the directories
 

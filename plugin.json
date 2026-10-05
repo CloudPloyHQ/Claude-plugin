@@ -63,7 +63,7 @@
               "description": "Connect git in the browser",
               "prompt": "Connect my GitHub account.",
               "tools_triggered": "connect_git_provider",
-              "expected_behavior": "Return auth_url and tell the person to open it. Do not ask for a personal access token."
+              "expected_behavior": "Return auth_url and tell the person to open it in the browser."
             },
             {
               "description": "Deploy an existing app",
