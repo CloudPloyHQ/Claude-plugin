@@ -9,7 +9,11 @@
     "url": "https://cloudploy.com"
   },
   "homepage": "https://cloudploy.com/mcp",
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://cloudploy.com/mcp",
+  "supportUrl": "https://cloudploy.com/contact",
   "privacyPolicyUrl": "https://cloudploy.com/privacy",
+  "termsOfServiceUrl": "https://cloudploy.com/terms",
   "repository": "https://github.com/CloudPloyHQ/cloudploy-agent",
   "license": "MIT",
   "keywords": ["deploy", "aws", "servers", "git"]
