@@ -1,8 +1,8 @@
 {
   "name": "cloudploy",
   "displayName": "CloudPloy/Claude-plugin",
-  "version": "1.2.0",
-  "description": "Connect AWS, Google Cloud, a VPS, or another cloud account, and put Cloudflare in front of it.",
+  "version": "1.2.1",
+  "description": "Deploy anywhere. We currently support AWS, custom VPS, and GCE. More services are coming soon.",
   "author": {
     "name": "CloudPloy",
     "email": "support@cloudploy.com",
@@ -16,5 +16,5 @@
   "termsOfServiceUrl": "https://cloudploy.com/terms",
   "repository": "https://github.com/CloudPloyHQ/Claude-plugin",
   "license": "MIT",
-  "keywords": ["aws", "google-cloud", "vps", "cloudflare", "deploy"]
+  "keywords": ["aws", "gce", "vps", "deploy"]
 }

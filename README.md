@@ -1,6 +1,6 @@
 # CloudPloy/Claude-plugin
 
-Connect AWS, Google Cloud, a VPS, or another cloud account, and put Cloudflare in front of it, from Claude or Claude Code. The agent talks to `https://app.cloudploy.com/mcp`. This repo is the install package. It doesn't run a second server.
+Deploy anywhere. We currently support AWS, custom VPS, and GCE. More services are coming soon. The agent talks to `https://app.cloudploy.com/mcp`. This repo is the install package. It doesn't run a second server.
 
 ChatGPT and Codex use [CloudPloy/ChatGPT-plugin](https://github.com/CloudPloyHQ/ChatGPT-plugin).
 

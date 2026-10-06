@@ -1,6 +1,6 @@
 ---
 name: deploy-app
-description: Connect AWS, Google Cloud, a VPS, or another cloud account, and put Cloudflare in front of it. Use when someone wants to connect a cloud account, add a server, connect git, create an app, or deploy.
+description: Deploy anywhere. We currently support AWS, custom VPS, and GCE. More services are coming soon. Use when someone wants to connect a cloud account, add a server, connect git, create an app, or deploy.
 ---
 
 # Deploy an app
