@@ -2,13 +2,13 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.cloudploy/cloudploy",
   "title": "CloudPloy",
-  "description": "Deploy an app onto a server in your own cloud account.",
-  "version": "1.0.0",
+  "description": "Let your AI agent deploy apps to your own server: AWS EC2 in your account or any SSH server.",
+  "version": "1.0.1",
   "websiteUrl": "https://cloudploy.com/mcp",
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://app.cloudploy.com/mcp"
+      "url": "https://brain.cloudploy.com/mcp"
     }
   ]
 }
