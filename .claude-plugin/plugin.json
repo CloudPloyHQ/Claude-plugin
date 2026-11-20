@@ -16,5 +16,5 @@
   "termsOfServiceUrl": "https://cloudploy.com/terms",
   "repository": "https://github.com/CloudPloyHQ/Claude-plugin",
   "license": "MIT",
-  "keywords": ["aws", "gce", "vps", "deploy"]
+  "keywords": ["aws", "vps", "deploy"]
 }
