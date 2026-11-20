@@ -2,7 +2,7 @@
   "name": "cloudploy",
   "displayName": "CloudPloy/Claude-plugin",
   "version": "1.2.1",
-  "description": "Deploy anywhere. We currently support AWS, custom VPS, and GCE. More services are coming soon.",
+  "description": "Deploy anywhere. We currently support your own AWS account and any server you already run (custom VPS).",
   "author": {
     "name": "CloudPloy",
     "email": "support@cloudploy.com",

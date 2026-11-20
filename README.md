@@ -1,6 +1,6 @@
 # CloudPloy/Claude-plugin
 
-Deploy anywhere. We currently support AWS, custom VPS, and GCE. More services are coming soon. The agent talks to `https://brain.cloudploy.com/mcp`. This repo is the install package. It doesn't run a second server.
+Deploy anywhere. We currently support your own AWS account and any server you already run (custom VPS). The agent talks to `https://brain.cloudploy.com/mcp`. This repo is the install package. It doesn't run a second server.
 
 ChatGPT and Codex use [CloudPloy/ChatGPT-plugin](https://github.com/CloudPloyHQ/ChatGPT-plugin).
 
